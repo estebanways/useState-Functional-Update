@@ -1,8 +1,5 @@
 import './App.css';
-/* Import this to define useState correctly */
 import { useState } from 'react';
-//import { FirstComponent } from './components/FirstComponent';
-//import { SecondComponent } from './components/SecondComponent';
 
 function App() {
   const [number, setNumber] = useState(0);
@@ -16,10 +13,6 @@ function App() {
 
   /*
    * Increases any number by one, asynchronously
-   * Produces the shared counted 'number' to go
-   * back to the time when it was clicked, losing
-   * the count of the clicks since that point
-   * 
    */
   const increaseAsync = () => {
     setTimeout (() => {
@@ -31,9 +24,6 @@ function App() {
    * Increases any number by one, asynchronously
    * It passes the previous stored value 'prev',
    * the current value 'current' or currentNumber
-   * in the function setNumber as argument to do
-   * not use the past value which decreases the
-   * counting
    */
   const increaseAsyncFixed = () => {
     setTimeout (() => {

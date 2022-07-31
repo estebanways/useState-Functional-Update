@@ -17,9 +17,3 @@ export const SecondComponent = () => {
     </div>
   )
 }
-
-/* 
- * VS code Extension shortcout: rafc
- * Functions without export default must be
- * imported with import { ComponentFunction } 'path';
- */

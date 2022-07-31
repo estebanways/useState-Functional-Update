@@ -8,9 +8,3 @@ export const FirstComponent = () => {
     </div>
   )
 }
-
-/* 
- * VS code Extension shortcut: rafc
- * Functions without export default must be
- * imported with import { ComponentFunction } 'path';
- */
